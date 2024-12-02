@@ -10,4 +10,4 @@ const approvedUser: User = array4.find((value: User, index: number, array: User[
     return value.age >= 18;
 });
 
-console.log(approvedUser.name);
+console.log(approvedUser.name);// Kauã

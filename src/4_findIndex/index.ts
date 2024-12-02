@@ -11,4 +11,4 @@ const indexFound: number = array5.findIndex((value: Product, index: number, arra
     return value.price < 20;
 });
 
-console.log(indexFound);
+console.log(indexFound);// 1
