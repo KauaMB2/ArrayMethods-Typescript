@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "module": "ESNext",               // Gera módulos ESNext
+      "target": "ESNext",               // Compila para ESNext (para usar as últimas features do JS)
+      "moduleResolution": "node",       // Resolves módulos da mesma forma que o Node.js
+      "esModuleInterop": true,          // Habilita a interoperabilidade com módulos CommonJS
+      "skipLibCheck": true,             // Ignora a verificação de tipos nas bibliotecas de terceiros
+      "forceConsistentCasingInFileNames": true,  // Garante consistência no uso de maiúsculas/minúsculas nos nomes de arquivos
+      "resolveJsonModule": true,        // Permite importar arquivos JSON
+      "isolatedModules": true,          // Garante que cada arquivo seja tratado como um módulo isolado
+      "noEmit": true                    // Impede a geração de arquivos .js quando você usa ts-node (não é necessário compilar)
+    },
+    "include": ["src/**/*"],             // Inclui todos os arquivos TypeScript da pasta 'src'
+    "exclude": ["node_modules"]          // Exclui a pasta node_modules
+}
+  
